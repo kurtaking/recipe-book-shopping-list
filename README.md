@@ -1,6 +1,10 @@
-# RecipeBookShoppingList
+# Recipe Book and Shopping List
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.6.
+
+## Project Description
+
+A web application built using Angular 4 that allows users to manage their recipe book and shopping lists.
 
 ## Development server
 
