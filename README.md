@@ -6,6 +6,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 > A web application built using Angular 4 that allows users to manage their recipe book and shopping lists.
 
+## Credit
+
+Initial Project came from a tutorial I followed along with which can be accessed by clicking this [link](https://www.udemy.com/the-complete-guide-to-angular-2/learn/v4/overview). The tutorial was written by Maximilian Schwarzmüller.
+
 ## To Do List (Version 1.0)
 
 ### Overall
