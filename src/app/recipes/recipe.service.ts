@@ -24,7 +24,7 @@ export class RecipeService {
       ]
     ),
     new Recipe(
-      'Tacos',
+      'Carne Asada Tacos',
       'Best taco recipe in town',
       'https://cdn.pixabay.com/photo/2016/06/15/19/09/food-1459693_960_720.jpg',
       [
@@ -35,6 +35,10 @@ export class RecipeService {
       ]
     )
   ];
+
+  getRecipe(index: number) {
+    return this.recipes[index];
+  }
 
   getRecipes() {
     return this.recipes.slice(); // only allow a copy to be accessed from outside component
