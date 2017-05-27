@@ -6,7 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 > A web application built using Angular 4 that allows users to manage their recipe book and shopping lists.
 
-## To Do List
+## To Do List (Version 1.0)
 
 ### Overall
 
@@ -18,7 +18,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ### Recipe Book
 
+- [ ] Allow user to decide whether they want to make recipe private or public (viewable by other users)
 - [ ] Add search functionality for public recipes
+- [ ] Allow user to add all ingredients for recipe to shopping list
 
 ### Shopping List
 
@@ -35,6 +37,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ### Testing
   
 - [ ] Test Cases
+- [ ] Mock Objects
   
 ### Misc
 
