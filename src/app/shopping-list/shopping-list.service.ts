@@ -20,4 +20,9 @@ export class ShoppingListService {
     this.ingredientsChanged.emit(this.ingredients.slice()); // update ingredients array when user adds new ingredients
   }
 
+  addIngredients(ingredients: Ingredient[]) {
+    this.ingredients.push(...ingredients);
+    this.ingredientsChanged.emit(this.ingredients.slice());
+  }
+
 }
