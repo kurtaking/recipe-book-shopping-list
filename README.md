@@ -4,7 +4,27 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Project Description
 
-A web application built using Angular 4 that allows users to manage their recipe book and shopping lists.
+> A web application built using Angular 4 that allows users to manage their recipe book and shopping lists.
+
+## To Do List
+
+- [ ] Finish Page CSS Layouts
+- [ ] Finalize Color Scheme
+- [ ] Convert navigation to use Routes
+- [ ] Implement MySQL Database
+- [ ] Delete Items from Shopping List
+- [ ] Add search functionality for public recipes
+- [ ] Close dropdown in navbar is opened and another dropdown is selected
+- [ ] Add favorites list to easily update shopping list
+  
+- [ ] Test Cases
+  
+- [ ] Update Wiki
+- [ ] Deploy Beta Version
+
+
+-----------------------------------------
+
 
 ## Development server
 
