@@ -1,7 +1,10 @@
+import {EventEmitter} from "@angular/core";
+
 import { Ingredient } from '../shared/models/ingredient.model';
-import {fingerprint} from "@angular/compiler/src/i18n/digest";
 
 export class ShoppingListService {
+
+  ingredientsChanged = new EventEmitter<Ingredient[]>();
 
   private ingredients: Ingredient[] = [
     new Ingredient('Apples', 5),
@@ -14,6 +17,7 @@ export class ShoppingListService {
 
   addIngredient(ingredient: Ingredient) {
     this.ingredients.push(ingredient);
+    this.ingredientsChanged.emit(this.ingredients.slice()); // update ingredients array when user adds new ingredients
   }
 
 }
