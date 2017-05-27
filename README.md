@@ -33,8 +33,8 @@ Initial Project came from a tutorial I followed along with which can be accessed
 
 ### Shopping List
 
-- [ ] Clear input field when ingredient is added to shopping list
-- [ ] Delete Items from Shopping List
+- [x] Clear input field when ingredient is added to shopping list
+- [x] Delete Items from Shopping List
 - [ ] Add favorites list to easily update shopping list
 
 ### Account
