@@ -15,6 +15,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - [ ] Convert navigation to use Routes
 - [ ] Implement MySQL Database
 - [ ] Close dropdown in navbar is opened and another dropdown is selected
+- [ ] Add splash page
+- [ ] Add footer
+- [ ] Login/Logout functionality
 
 ### Recipe Book
 
@@ -30,7 +33,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ### Account
 
-- [ ] Account Creation
+- [ ] Account Creation (includes account creation view - may be apart of splash page)
 - [ ] Account Profile
 - [ ] Account Settings
 
@@ -38,7 +41,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
   
 - [ ] Test Cases
 - [ ] Mock Objects
-  
+
+### Deployment
+
+- [ ] Setup S3 bucket
+- [ ] Deploy V1.0
+
 ### Misc
 
 - [ ] Update Wiki
