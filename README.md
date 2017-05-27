@@ -25,11 +25,15 @@ Initial Project came from a tutorial I followed along with which can be accessed
 
 ### Recipe Book
 
+- [x] Edit a Recipe
+- [x] Add a new Recipe
+- [x] Delete a Recipe
 - [ ] Allow user to decide whether they want to make recipe private or public (viewable by other users)
 - [ ] Add search functionality for public recipes
 - [x] Allow user to add all ingredients for recipe to shopping list
 - [ ] Allow user to select ingredients to add from recipe to shopping list
 - [ ] Add functionality to group same incredients into one list item and increase amount
+- [ ] If user deletes ingredients from recipe, ask if they would also like to remove from shopping list
 
 ### Shopping List
 
