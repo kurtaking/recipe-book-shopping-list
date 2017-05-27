@@ -12,7 +12,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 - [ ] Finish Page CSS Layouts
 - [ ] Finalize Color Scheme
-- [ ] Convert navigation to use Routes
+- [X] Convert navigation to use Routes
 - [ ] Implement MySQL Database
 - [ ] Close dropdown in navbar is opened and another dropdown is selected
 - [ ] Add splash page
