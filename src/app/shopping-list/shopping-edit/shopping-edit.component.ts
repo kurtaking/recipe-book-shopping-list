@@ -18,7 +18,7 @@ export class ShoppingEditComponent implements OnInit, OnDestroy {
 
   @ViewChild('f') shoppingListForm: NgForm;
 
-  subscription: Subscription;
+  private subscription: Subscription;
   editMode = false;
   editedIngredientIndex: number;
   editedIngredient: Ingredient;
@@ -29,7 +29,7 @@ export class ShoppingEditComponent implements OnInit, OnDestroy {
   ) { }
 
   ngOnInit() {
-    this.shoppingListService.startedEditing
+    this.subscription = this.shoppingListService.startedEditing
       .subscribe(
         (index: number) => {
           this.editedIngredientIndex = index;
