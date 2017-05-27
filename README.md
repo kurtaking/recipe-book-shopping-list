@@ -12,7 +12,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 - [ ] Finish Page CSS Layouts
 - [ ] Finalize Color Scheme
-- [X] Convert navigation to use Routes
+- [x] Convert navigation to use Routes
 - [ ] Implement MySQL Database
 - [ ] Close dropdown in navbar is opened and another dropdown is selected
 - [ ] Add splash page
@@ -23,7 +23,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 - [ ] Allow user to decide whether they want to make recipe private or public (viewable by other users)
 - [ ] Add search functionality for public recipes
-- [X] Allow user to add all ingredients for recipe to shopping list
+- [x] Allow user to add all ingredients for recipe to shopping list
 - [ ] Allow user to select ingredients to add from recipe to shopping list
 - [ ] Add functionality to group same incredients into one list item and increase amount
 
