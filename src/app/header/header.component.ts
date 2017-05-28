@@ -1,6 +1,8 @@
 import {Component} from '@angular/core';
 import {DataStorageService} from "../shared/services/data-storage.service";
 import {Response} from "@angular/http";
+import {AuthService} from "../auth/auth.service";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-header',
@@ -11,7 +13,8 @@ import {Response} from "@angular/http";
 export class HeaderComponent {
 
   constructor(
-    private dataStorageService: DataStorageService
+    private dataStorageService: DataStorageService,
+    private authService: AuthService,
   ) {}
 
   onFetchData() {
@@ -24,6 +27,10 @@ export class HeaderComponent {
         console.log(response);
       }
     );
+  }
+
+  onLogout() {
+    this.authService.logoutUser();
   }
 
 }

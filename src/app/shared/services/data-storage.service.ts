@@ -9,7 +9,6 @@ import {AuthService} from "../../auth/auth.service";
 @Injectable()
 export class DataStorageService {
 
-  private dbUrl = "https://recipe-book-shopping-list.firebaseio.com/recipes.json";
 
   constructor(
     private http: Http,
