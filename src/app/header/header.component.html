@@ -19,6 +19,7 @@
       </form>
 
       <ul class="nav navbar-nav navbar-right">
+
         <li class="dropdown" appDropdown>
           <a class="dropdown-toggle">My Account <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -29,6 +30,10 @@
       </ul>
 
       <ul class="nav navbar-nav navbar-right">
+
+        <li><a routerLink="/signin">Login</a></li>
+        <li><a routerLink="/signup">Register</a></li>
+
         <li class="dropdown" appDropdown>
           <a class="dropdown-toggle">Manage <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -36,8 +41,9 @@
             <li><a (click)="onFetchData()">Fetch Data</a></li>
           </ul>
         </li>
-      </ul>
-    </div>
 
+      </ul>
+
+    </div>
   </div>
 </nav>

@@ -3,16 +3,18 @@ import {Http, Response}           from "@angular/http";
 
 import {RecipeService}  from "../../recipes/recipe.service";
 import {Recipe} from "../../recipes/recipe.model";
+import {AuthService} from "../../auth/auth.service";
 
 
 @Injectable()
 export class DataStorageService {
 
-  private dbUrl = "";
+  private dbUrl = "https://recipe-book-shopping-list.firebaseio.com/recipes.json";
 
   constructor(
     private http: Http,
-    private recipeService: RecipeService
+    private recipeService: RecipeService,
+    private authService: AuthService
   ) {}
 
   storeRecipes() {
@@ -24,7 +26,9 @@ export class DataStorageService {
   }
 
   retrieveRecipes() {
-    this.http.get(this.dbUrl).subscribe(
+    const token = this.authService.getToken();
+
+    this.http.get(this.dbUrl + '?auth=' + token).subscribe(
       (response: Response) => {
         const recipes: Recipe[] = response.json();
         this.recipeService.setRecipes(recipes);
