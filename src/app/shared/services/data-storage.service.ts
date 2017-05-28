@@ -18,8 +18,10 @@ export class DataStorageService {
   ) {}
 
   storeRecipes() {
+    const token = this.authService.getToken();
+
     return this.http.put(
-      this.dbUrl,
+      this.dbUrl + '?auth=' + token,
       this.recipeService.getRecipes()
     );
 
@@ -28,14 +30,7 @@ export class DataStorageService {
   retrieveRecipes() {
     const token = this.authService.getToken();
 
-    this.http.get(this.dbUrl + '?auth=' + token).subscribe(
-      (response: Response) => {
-        const recipes: Recipe[] = response.json();
-        this.recipeService.setRecipes(recipes);
-      }
-    )
-
-    this.http.get(this.dbUrl)
+    this.http.get(this.dbUrl + '?auth=' + token)
       .map(
         (response: Response) => {
           const recipes: Recipe[] = response.json();
