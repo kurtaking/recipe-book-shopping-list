@@ -44,7 +44,11 @@ Initial Project came from a tutorial I followed along with which can be accessed
 
 ### Account
 
-- [ ] Account Creation (includes account creation view - may be apart of splash page)
+- [ ] Account Creation View (includes account creation view - may be apart of splash page)
+- [ ] Allow users to sign up with email and password
+- [ ] Allow users to sign into application
+- [ ] Add form validation to signup form
+- [ ] Add form validation to signin form
 - [ ] Account Profile
 - [ ] Account Settings
 
