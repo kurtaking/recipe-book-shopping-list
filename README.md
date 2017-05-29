@@ -12,16 +12,11 @@ Initial Project came from a tutorial I followed along with which can be accessed
 
 ## To Do List (Version 1.0)
 
-### Overall
-
-- [x] Convert navigation to use Routes
-- [ ] Implement MySQL Database (or choose alternative database)
-- [ ] Close dropdown in navbar is opened and another dropdown is selected
-
 ### HTML Components/Pages
 
 - [ ] Add footer
 - [ ] Finalize navbar
+- [ ] Close dropdown in navbar if opened and another dropdown is selected
 - [ ] Add contact page
 
 ### Design
@@ -63,19 +58,24 @@ Initial Project came from a tutorial I followed along with which can be accessed
 - [ ] Account Profile
 - [ ] Account Settings
 
+### Misc
+
+- [ ] Update Wiki
+- [x] Convert navigation to use Routes
+
 ### Testing
   
 - [ ] Test Cases
 - [ ] Mock Objects
 
+### Database
+
+- [ ] Implement MySQL Database (or choose alternative database)
+
 ### Deployment
 
 - [ ] Setup S3 bucket
 - [ ] Deploy V1.0
-
-### Misc
-
-- [ ] Update Wiki
 
 -----------------------------------------
 
