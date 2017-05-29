@@ -14,14 +14,21 @@ Initial Project came from a tutorial I followed along with which can be accessed
 
 ### Overall
 
-- [ ] Finish Page CSS Layouts
-- [ ] Finalize Color Scheme
 - [x] Convert navigation to use Routes
-- [ ] Implement MySQL Database
+- [ ] Implement MySQL Database (or choose alternative database)
 - [ ] Close dropdown in navbar is opened and another dropdown is selected
-- [ ] Add splash page
+
+### HTML Components/Pages
+
 - [ ] Add footer
-- [ ] Login/Logout functionality
+- [ ] Finalize navbar
+- [ ] Add contact page
+
+### Design
+
+- [ ] Finish Page CSS Layouts
+- [ ] Design Splash Page
+- [ ] Choose and implement color scheme
 
 ### Recipe Book
 
@@ -44,9 +51,13 @@ Initial Project came from a tutorial I followed along with which can be accessed
 
 ### Account
 
-- [ ] Account Creation View (includes account creation view - may be apart of splash page)
-- [ ] Allow users to sign up with email and password
-- [ ] Allow users to sign into application
+- [x] Allow users to sign up with email and password
+- [ ] Allow users to create accounts/sign in with Google, Facebook, and Github
+- [x] Allow users to sign into application
+- [x] Allow users to logout and end session
+- [ ] Email address (account) verification (email)
+- [ ] Reset Password Functionality (email)
+- [ ] Email reset/change (email)
 - [ ] Add form validation to signup form
 - [ ] Add form validation to signin form
 - [ ] Account Profile
