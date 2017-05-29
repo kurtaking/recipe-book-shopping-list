@@ -24,3 +24,6 @@
   cursor: pointer;
 }
 
+* {
+  font-family: Arimo !important;
+}

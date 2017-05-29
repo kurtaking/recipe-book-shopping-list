@@ -3,7 +3,6 @@ import { NgModule }                 from '@angular/core';
 import { HttpModule }               from '@angular/http';
 
 import { AppRoutingModule }         from "./app-routing.module";
-import { RecipeModule }             from "./recipes/recipes.module";
 import { ShoppingListModule }       from "./shopping-list/shopping-list.module";
 import { SharedModule }             from "./shared/modules/shared.module";
 import { AuthModule }               from "./auth/auth.module";
@@ -17,17 +16,22 @@ import { DataStorageService }       from "./shared/services/data-storage.service
 
 import { AuthService }              from "./auth/auth.service";
 import { AuthGuard }                from "./auth/auth-guard.service";
+import { HomeComponent } from './home/home.component';
+import { AccountProfileComponent } from './account/account-profile/account-profile.component';
+import { AccountSettingsComponent } from './account/account-settings/account-settings.component';
+import {AccountModule} from "./account/account.module";
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
     HttpModule,
     AppRoutingModule,
-    RecipeModule,
+    AccountModule,
     ShoppingListModule,
     AuthModule,
     SharedModule
@@ -41,4 +45,5 @@ import { AuthGuard }                from "./auth/auth-guard.service";
   ],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }

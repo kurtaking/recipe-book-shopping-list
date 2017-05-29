@@ -29,4 +29,4 @@ import {CommonModule} from "@angular/common";
   providers: [],
 })
 
-export class RecipeModule { }
+export class RecipesModule { }

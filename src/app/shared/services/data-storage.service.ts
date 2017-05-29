@@ -5,7 +5,6 @@ import {RecipeService}  from "../../recipes/recipe.service";
 import {Recipe} from "../../recipes/recipe.model";
 import {AuthService} from "../../auth/auth.service";
 
-
 @Injectable()
 export class DataStorageService {
 
