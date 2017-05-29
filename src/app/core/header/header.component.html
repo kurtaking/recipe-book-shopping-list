@@ -6,7 +6,7 @@
 
     <div class="collapse navbar-collapse">
 
-      <ng-template [ngIf]="authService.isAuthenticated()">
+      <ng-template [ngIf]="isAuthenticated()">
         <ul class="nav navbar-nav">
           <!--<li routerLinkActive="active" style="border-left: solid 1px #000"><a routerLink="/recipes">Home</a></li>-->
           <li routerLinkActive="active"><a routerLink="/recipes">My Recipes</a></li>
@@ -21,7 +21,7 @@
         </form>
       </ng-template>
 
-      <ng-template [ngIf]="authService.isAuthenticated()">
+      <ng-template [ngIf]="isAuthenticated()">
         <ul class="nav navbar-nav navbar-right">
 
           <li class="dropdown" appDropdown>
@@ -38,12 +38,12 @@
       </ng-template>
 
       <ul class="nav navbar-nav navbar-right">
-        <ng-template [ngIf]="!authService.isAuthenticated()">
+        <ng-template [ngIf]="!isAuthenticated()">
           <li><a routerLink="/signin">Login</a></li>
           <li><a routerLink="/signup">Register</a></li>
         </ng-template>
 
-        <ng-template [ngIf]="authService.isAuthenticated()">
+        <ng-template [ngIf]="isAuthenticated()">
           <li class="dropdown" appDropdown>
             <a class="dropdown-toggle">Manage <span class="caret"></span></a>
             <ul class="dropdown-menu">
