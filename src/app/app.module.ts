@@ -11,13 +11,6 @@ import { CoreModule }               from "./core/core.module";
 
 import { AppComponent }             from './app.component';
 
-import { ShoppingListService }      from "./shopping-list/shopping-list.service";
-import { RecipeService }            from "./recipes/recipe.service";
-import { DataStorageService }       from "./shared/services/data-storage.service";
-
-import { AuthService }              from "./auth/auth.service";
-import { AuthGuard }                from "./auth/auth-guard.service";
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,13 +24,6 @@ import { AuthGuard }                from "./auth/auth-guard.service";
     AuthModule,
     SharedModule,
     CoreModule
-  ],
-  providers: [
-    ShoppingListService,
-    RecipeService,
-    DataStorageService,
-    AuthService,
-    AuthGuard
   ],
   bootstrap: [AppComponent]
 })
